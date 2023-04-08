@@ -1,3 +1,6 @@
+body{
+    background-color:#2d2b2b;
+}
 h2{
     font-weight:700;
 }
@@ -8,11 +11,12 @@ h1{
 nav{
     width: 100%;
     height: 20px;
-    background-color:lightgrey;
     padding-bottom: 300px;
     padding-right: 50px;
     margin-right: 50px;
     color: white;
+    padding-top: 30px;
+
    
 }
 .nav-con{
@@ -26,7 +30,7 @@ nav{
 width:20%;
 height: 50px;
 float: left;
-padding-left: 10px;
+padding-left: 20px;
 color: black;
 padding-bottom: 10px;
 padding-top: 10px;
@@ -37,7 +41,7 @@ font-weight:700 ;
 
 
 .nav-con{
-    width: 900px;
+    width: 1000px;
     height: 2px;
     float:right;
     margin-right: 10px;
@@ -49,38 +53,39 @@ list-style: none;
 
 .nav-con li{
 float: left;
-width: 90px;
-height: 4px;
-padding-left:10px;
-padding-right:10px;
-margin-left: 5px; 
-margin-right: 5px;
-padding-top: 1px;
-text-align: center;
 width: 100px;
-color: black;
+height: 20px;
+padding-left: 5px;
+padding-right:10px;
+margin-left: 30px; 
+margin-right: 30px;
+
+width: 100px;
+color: white;
 }
 
 .nav-con li:hover{
 color: white;
 cursor: pointer;
 }
-.search{
-    float:right;
-    text-align:right;
+input{
+    float:left;
     border-color: black;
-border-radius: 10px;
+border-radius: 20px;
 margin-right: 10px;
 } 
 
 header{
     width: 100%;
     height: 840px;
-    background-color: lightgrey;
+    background-image:url('../Assets/cover-image/Arctic-Monkeys-Widescreen.webp');
+    background-position: center;
+    background-size: cover;
     padding-top: 5px;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .h-buttons{
@@ -110,8 +115,8 @@ border-radius: 40PX;
 }
 .normal:hover{
     cursor: pointer;
-    background-color: white;
-    color: #2b2b2b;
+    background-color:lightgray;
+    color: white;
     border:2px solid #2b2b2b;
     padding-top: 20px !important;
  }
@@ -120,6 +125,7 @@ border-radius: 40PX;
      border: 2px solid #2b2b2b;
     padding-bottom: 5px;
     border-color: white;
+    color: white;
     }
 .inverted:hover{
     cursor: pointer;
@@ -133,26 +139,9 @@ border-radius: 40PX;
     margin-right: 50px;
     font-family: 'Montserrat', sans-serif;
 }
-.col-box1{
 
-    width: 100%;
-       height: 390px;
-       background-color: grey;
-       text-align: center;
-       padding-top: 150px;
-       margin-top: -60px;
       
-}
-.col-box2{
 
-    width: 100%;
-       height: 560px;
-       background-color: rgb(183, 183, 183);
-       opacity: 80%;
-       text-align: center;
-       padding-top: 15px;
-       margin-top: -60px;
-}
 .col-box3{
 
     width: 100%;
@@ -166,13 +155,92 @@ border-radius: 40PX;
     width: 100%;
     height:40px;
     margin-top: 80px;
-    background-color: white;
-    color: black;
+    color: white;
+    font-size: 30px;
 }
 
-.thumbnail{
+.thumbnail1{
     width: 100%;
     height: 277px;
+   background-image: url('../Assets/album-covers/AM.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+
+   .thumbnail2{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/favourite\ worst\ nightmare.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail3{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/the\ car.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail4{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Arctic-Monkeys\ royal\ albert\ hall.webp');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail5{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/tranquility-base-hotel-and-casino.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail6{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Humbug.webp');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail7{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/at\ the\ apollo.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail8{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Bigger\ Boys\ and\ Stolen\ Sweethearts.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail9{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Live\ in\ Texas\ 7\ June\ 2006.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail10{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Suck\ It\ and\ See.jpg');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail11{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/beneath\ the\ broadwalk.webp');
+ background-position: center;
+   background-size: cover;
+   }
+   .thumbnail12{
+    width: 100%;
+    height: 277px;
+   background-image: url('../Assets/album-covers/Whatever\ People\ Say\ I\ Am\,\ That\'s\ What\ I\'m\ Not.jpg');
  background-position: center;
    background-size: cover;
    }
@@ -202,7 +270,7 @@ border-radius: 40PX;
       
        width: 100%;
        height: 90px;
-       background-color:crimson;
+       background-color:#8c2b2b;
        color: white;
        padding-left: 25px;
        padding-top: 9px;
@@ -218,26 +286,53 @@ border-radius: 40PX;
 
 .left-side{
 	width: 50%;
-    height: 300px;
-    background-color: antiquewhite;
+    height: 390px;   
+    background-color: #8c2b2b;
+    text-align: center;  
     z-index: 2;
-	margin-top: -10px;
+	margin-top: -60px;
 }
 
 .right-side{
 	Width: 57%;
 	margin-left: -5%;
-    height: 600px;
-    background-color: aquamarine;
-    margin-top: -10px;
+    height: 560px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(121, 9, 9);
+       opacity: 80%;
+    margin-top: -60px;
     
 }
    
-  
+.col-box2{
+    width:600px ;
+    height: 700px;
+    background-color: rgb(121, 9, 9);
 
+}
+.col-box1{
+    width:600px ;
+    height: 700px;
+   color: white;
+ margin-left: 30px;
+ padding-left: 80px;
+}
+  
+.social{ 
+    float:left;
+}
 
 
 footer{
+    width: 100%;
+    height: 100px;
+    background-color: #8c2b2b;
     margin-top: 60px;
-    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
 }
