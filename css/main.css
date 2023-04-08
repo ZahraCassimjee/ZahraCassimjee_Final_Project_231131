@@ -210,6 +210,28 @@ border-radius: 40PX;
        text-align: left;
    
    }
+
+.flex{
+	display: flex;
+	align-items: space-between;
+}
+
+.left-side{
+	width: 50%;
+    height: 300px;
+    background-color: antiquewhite;
+    z-index: 2;
+	margin-top: -10px;
+}
+
+.right-side{
+	Width: 57%;
+	margin-left: -5%;
+    height: 600px;
+    background-color: aquamarine;
+    margin-top: -10px;
+    
+}
    
   
 
