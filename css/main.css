@@ -308,23 +308,131 @@ border-radius: 40PX;
 }
    
 .col-box2{
-    width:600px ;
-    height: 700px;
+    width:100%;
+    height: 600px;
     background-color: rgb(121, 9, 9);
+    padding-left: 40px;
+    padding-top: 40px;
 
 }
 .col-box1{
-    width:600px ;
-    height: 700px;
+    width:100%;
+    height: 600px;
    color: white;
- margin-left: 30px;
  padding-left: 80px;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.input-el{
+    width:90% ;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2d2b2b;
+color: white;
+}
+
+select{
+    width: 90% !important;
+}
+.playbutton{
+    width:50%;
+    height:90px ;
+    background-color: #2d2b2b;
+    border-radius: 20px;
+    color: white;
+    font-size: 40px
 }
   
 .social{ 
     float:left;
 }
 
+
+.contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.col-box4{
+    width: 100%;
+    height: 500px;
+   background-image: url('../Assets/album-covers/AM.jpg');
+ background-position: center;
+   background-size: cover;
+}
+
+.nav-bar ul{
+    list-style: none;
+    float: left;
+    }
+    
+    .nav-bar li{
+        padding-left: 90px; 
+        float: left;
+        }
+
+.headings{
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+.headings ul{
+    list-style: none;
+}
+.headings li{
+    list-style: none;
+    float: left;
+    padding-left: 90px; 
+}
+
+.player-line{
+    width:100%;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right:  50px;
+    }
+    
+    .line{
+        width:100%;
+        height: 5px;
+        background-color: lightgrey;
+       
+    }
+    .inner-line{
+        width:50%;
+        height: 5px;
+        background-color:#8c2b2b;
+       
+    }
+    .marker{
+        width:20px;
+        height: 20px;
+        background-color:#8c2b2b;
+    border-radius: 50%;
+    margin:0 auto ;
+    margin-top: -20px;
+       
+    }
+
+
+
+
+
+.play{
+text-align: center;
+}
 
 footer{
     width: 100%;
