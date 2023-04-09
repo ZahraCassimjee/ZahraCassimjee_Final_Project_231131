@@ -269,7 +269,7 @@ border-radius: 40PX;
    .content{
       
        width: 100%;
-       height: 90px;
+       height: 100px;
        background-color:#8c2b2b;
        color: white;
        padding-left: 25px;
@@ -370,11 +370,30 @@ select{
    background-image: url('../Assets/album-covers/AM.jpg');
  background-position: center;
    background-size: cover;
+   padding-left: 50px;
+   color: white;
+   font: size 70px;
+   text-align: center;
+   padding-top: 100px;
 }
+.col-box8{
 
+    width: 500px;
+    height: 600px;
+    padding-left: 50px;
+}
+.nav-bar{
+    width: 900px;
+height: 30px;
+font-weight: bold;
+float: left;
+margin-top: -200px;
+
+
+}
 .nav-bar ul{
     list-style: none;
-    float: left;
+   
     }
     
     .nav-bar li{
@@ -382,19 +401,7 @@ select{
         float: left;
         }
 
-.headings{
-    width: 100%;
-    height: 30px;
-    float: left;
-}
-.headings ul{
-    list-style: none;
-}
-.headings li{
-    list-style: none;
-    float: left;
-    padding-left: 90px; 
-}
+
 
 .player-line{
     width:100%;
@@ -422,14 +429,37 @@ select{
         background-color:#8c2b2b;
     border-radius: 50%;
     margin:0 auto ;
-    margin-top: -20px;
+    margin-top: -10px;
        
     }
 
+.playlist{
+    display: flex;
+    flex-direction: column;
+    columns: 5;
+    column-width: 10px;
+    width: 900px;
+    height: 30px;
+    color: white;
+    margin-top: -400px;
+    margin-left: 100px;
+
+}
+
+.columns{
+
+color: white;
+float: left;
 
 
+}
 
 
+.active{
+  font-weight: bold !important;
+    color: white !important;
+
+}
 .play{
 text-align: center;
 }
